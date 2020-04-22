@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33A95D4D1978304700F37D56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33A95D4C1978304700F37D56 /* Foundation.framework */; };
+		33A95D4F1978304700F37D56 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33A95D4E1978304700F37D56 /* CoreGraphics.framework */; };
+		33A95D511978304700F37D56 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33A95D501978304700F37D56 /* UIKit.framework */; };
+		33A95D571978304700F37D56 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33A95D551978304700F37D56 /* InfoPlist.strings */; };
+		33A95D591978304700F37D56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A95D581978304700F37D56 /* main.m */; };
+		33A95D5D1978304700F37D56 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A95D5C1978304700F37D56 /* AppDelegate.m */; };
+		33A95D601978304700F37D56 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33A95D5E1978304700F37D56 /* Main_iPhone.storyboard */; };
+		33A95D631978304700F37D56 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33A95D611978304700F37D56 /* Main_iPad.storyboard */; };
+		33A95D661978304700F37D56 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A95D651978304700F37D56 /* ViewController.m */; };
+		33A95D681978304700F37D56 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33A95D671978304700F37D56 /* Images.xcassets */; };
+		33A95D6F1978304700F37D56 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33A95D6E1978304700F37D56 /* XCTest.framework */; };
+		33A95D701978304700F37D56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33A95D4C1978304700F37D56 /* Foundation.framework */; };
+		33A95D711978304700F37D56 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33A95D501978304700F37D56 /* UIKit.framework */; };
+		33A95D791978304700F37D56 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33A95D771978304700F37D56 /* InfoPlist.strings */; };
+		33A95D7B1978304700F37D56 /* My_Firs_iOS_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A95D7A1978304700F37D56 /* My_Firs_iOS_AppTests.m */; };
+		33A95D861978321C00F37D56 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A95D851978321C00F37D56 /* Person.m */; };
+		33A95D8A1978430200F37D56 /* Jaguar.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A95D891978430200F37D56 /* Jaguar.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33A95D721978304700F37D56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33A95D411978304700F37D56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33A95D481978304700F37D56;
+			remoteInfo = "My Firs iOS App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33A95D491978304700F37D56 /* My Firs iOS App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Firs iOS App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33A95D4C1978304700F37D56 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		33A95D4E1978304700F37D56 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		33A95D501978304700F37D56 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		33A95D541978304700F37D56 /* My Firs iOS App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "My Firs iOS App-Info.plist"; sourceTree = "<group>"; };
+		33A95D561978304700F37D56 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		33A95D581978304700F37D56 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		33A95D5A1978304700F37D56 /* My Firs iOS App-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "My Firs iOS App-Prefix.pch"; sourceTree = "<group>"; };
+		33A95D5B1978304700F37D56 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		33A95D5C1978304700F37D56 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		33A95D5F1978304700F37D56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		33A95D621978304700F37D56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		33A95D641978304700F37D56 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		33A95D651978304700F37D56 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		33A95D671978304700F37D56 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		33A95D6D1978304700F37D56 /* My Firs iOS AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My Firs iOS AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33A95D6E1978304700F37D56 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		33A95D761978304700F37D56 /* My Firs iOS AppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "My Firs iOS AppTests-Info.plist"; sourceTree = "<group>"; };
+		33A95D781978304700F37D56 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		33A95D7A1978304700F37D56 /* My_Firs_iOS_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = My_Firs_iOS_AppTests.m; sourceTree = "<group>"; };
+		33A95D841978321C00F37D56 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Person.h; path = ../Person.h; sourceTree = "<group>"; };
+		33A95D851978321C00F37D56 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = ../Person.m; sourceTree = "<group>"; };
+		33A95D871978418300F37D56 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		33A95D881978430200F37D56 /* Jaguar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Jaguar.h; sourceTree = "<group>"; };
+		33A95D891978430200F37D56 /* Jaguar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Jaguar.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33A95D461978304700F37D56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A95D4F1978304700F37D56 /* CoreGraphics.framework in Frameworks */,
+				33A95D511978304700F37D56 /* UIKit.framework in Frameworks */,
+				33A95D4D1978304700F37D56 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33A95D6A1978304700F37D56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A95D6F1978304700F37D56 /* XCTest.framework in Frameworks */,
+				33A95D711978304700F37D56 /* UIKit.framework in Frameworks */,
+				33A95D701978304700F37D56 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33A95D401978304700F37D56 = {
+			isa = PBXGroup;
+			children = (
+				33A95D521978304700F37D56 /* My Firs iOS App */,
+				33A95D741978304700F37D56 /* My Firs iOS AppTests */,
+				33A95D4B1978304700F37D56 /* Frameworks */,
+				33A95D4A1978304700F37D56 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33A95D4A1978304700F37D56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33A95D491978304700F37D56 /* My Firs iOS App.app */,
+				33A95D6D1978304700F37D56 /* My Firs iOS AppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33A95D4B1978304700F37D56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33A95D4C1978304700F37D56 /* Foundation.framework */,
+				33A95D4E1978304700F37D56 /* CoreGraphics.framework */,
+				33A95D501978304700F37D56 /* UIKit.framework */,
+				33A95D6E1978304700F37D56 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		33A95D521978304700F37D56 /* My Firs iOS App */ = {
+			isa = PBXGroup;
+			children = (
+				33A95D841978321C00F37D56 /* Person.h */,
+				33A95D851978321C00F37D56 /* Person.m */,
+				33A95D5B1978304700F37D56 /* AppDelegate.h */,
+				33A95D5C1978304700F37D56 /* AppDelegate.m */,
+				33A95D871978418300F37D56 /* Car.h */,
+				33A95D881978430200F37D56 /* Jaguar.h */,
+				33A95D891978430200F37D56 /* Jaguar.m */,
+				33A95D5E1978304700F37D56 /* Main_iPhone.storyboard */,
+				33A95D611978304700F37D56 /* Main_iPad.storyboard */,
+				33A95D641978304700F37D56 /* ViewController.h */,
+				33A95D651978304700F37D56 /* ViewController.m */,
+				33A95D671978304700F37D56 /* Images.xcassets */,
+				33A95D531978304700F37D56 /* Supporting Files */,
+			);
+			path = "My Firs iOS App";
+			sourceTree = "<group>";
+		};
+		33A95D531978304700F37D56 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33A95D541978304700F37D56 /* My Firs iOS App-Info.plist */,
+				33A95D551978304700F37D56 /* InfoPlist.strings */,
+				33A95D581978304700F37D56 /* main.m */,
+				33A95D5A1978304700F37D56 /* My Firs iOS App-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		33A95D741978304700F37D56 /* My Firs iOS AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				33A95D7A1978304700F37D56 /* My_Firs_iOS_AppTests.m */,
+				33A95D751978304700F37D56 /* Supporting Files */,
+			);
+			path = "My Firs iOS AppTests";
+			sourceTree = "<group>";
+		};
+		33A95D751978304700F37D56 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33A95D761978304700F37D56 /* My Firs iOS AppTests-Info.plist */,
+				33A95D771978304700F37D56 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33A95D481978304700F37D56 /* My Firs iOS App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33A95D7E1978304700F37D56 /* Build configuration list for PBXNativeTarget "My Firs iOS App" */;
+			buildPhases = (
+				33A95D451978304700F37D56 /* Sources */,
+				33A95D461978304700F37D56 /* Frameworks */,
+				33A95D471978304700F37D56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "My Firs iOS App";
+			productName = "My Firs iOS App";
+			productReference = 33A95D491978304700F37D56 /* My Firs iOS App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33A95D6C1978304700F37D56 /* My Firs iOS AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33A95D811978304700F37D56 /* Build configuration list for PBXNativeTarget "My Firs iOS AppTests" */;
+			buildPhases = (
+				33A95D691978304700F37D56 /* Sources */,
+				33A95D6A1978304700F37D56 /* Frameworks */,
+				33A95D6B1978304700F37D56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33A95D731978304700F37D56 /* PBXTargetDependency */,
+			);
+			name = "My Firs iOS AppTests";
+			productName = "My Firs iOS AppTests";
+			productReference = 33A95D6D1978304700F37D56 /* My Firs iOS AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33A95D411978304700F37D56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					33A95D6C1978304700F37D56 = {
+						TestTargetID = 33A95D481978304700F37D56;
+					};
+				};
+			};
+			buildConfigurationList = 33A95D441978304700F37D56 /* Build configuration list for PBXProject "My Firs iOS App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33A95D401978304700F37D56;
+			productRefGroup = 33A95D4A1978304700F37D56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33A95D481978304700F37D56 /* My Firs iOS App */,
+				33A95D6C1978304700F37D56 /* My Firs iOS AppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33A95D471978304700F37D56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A95D631978304700F37D56 /* Main_iPad.storyboard in Resources */,
+				33A95D681978304700F37D56 /* Images.xcassets in Resources */,
+				33A95D601978304700F37D56 /* Main_iPhone.storyboard in Resources */,
+				33A95D571978304700F37D56 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33A95D6B1978304700F37D56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A95D791978304700F37D56 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33A95D451978304700F37D56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A95D8A1978430200F37D56 /* Jaguar.m in Sources */,
+				33A95D661978304700F37D56 /* ViewController.m in Sources */,
+				33A95D5D1978304700F37D56 /* AppDelegate.m in Sources */,
+				33A95D861978321C00F37D56 /* Person.m in Sources */,
+				33A95D591978304700F37D56 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33A95D691978304700F37D56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A95D7B1978304700F37D56 /* My_Firs_iOS_AppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33A95D731978304700F37D56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33A95D481978304700F37D56 /* My Firs iOS App */;
+			targetProxy = 33A95D721978304700F37D56 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33A95D551978304700F37D56 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33A95D561978304700F37D56 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		33A95D5E1978304700F37D56 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33A95D5F1978304700F37D56 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		33A95D611978304700F37D56 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33A95D621978304700F37D56 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		33A95D771978304700F37D56 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33A95D781978304700F37D56 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33A95D7C1978304700F37D56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33A95D7D1978304700F37D56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33A95D7F1978304700F37D56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "My Firs iOS App/My Firs iOS App-Prefix.pch";
+				INFOPLIST_FILE = "My Firs iOS App/My Firs iOS App-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		33A95D801978304700F37D56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "My Firs iOS App/My Firs iOS App-Prefix.pch";
+				INFOPLIST_FILE = "My Firs iOS App/My Firs iOS App-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		33A95D821978304700F37D56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/My Firs iOS App.app/My Firs iOS App";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "My Firs iOS App/My Firs iOS App-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "My Firs iOS AppTests/My Firs iOS AppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		33A95D831978304700F37D56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/My Firs iOS App.app/My Firs iOS App";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "My Firs iOS App/My Firs iOS App-Prefix.pch";
+				INFOPLIST_FILE = "My Firs iOS AppTests/My Firs iOS AppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33A95D441978304700F37D56 /* Build configuration list for PBXProject "My Firs iOS App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33A95D7C1978304700F37D56 /* Debug */,
+				33A95D7D1978304700F37D56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33A95D7E1978304700F37D56 /* Build configuration list for PBXNativeTarget "My Firs iOS App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33A95D7F1978304700F37D56 /* Debug */,
+				33A95D801978304700F37D56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33A95D811978304700F37D56 /* Build configuration list for PBXNativeTarget "My Firs iOS AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33A95D821978304700F37D56 /* Debug */,
+				33A95D831978304700F37D56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33A95D411978304700F37D56 /* Project object */;
+}
